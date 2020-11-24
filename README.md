@@ -15,4 +15,4 @@ In the process of developing a backup script that will allow a webdev or sysadmi
 
 2. I'm also not excited by EasyEngine dropping the .sql dump into the webroot as `example.com.sql`. That file is open to the web during the backup process. A better method (although I have ZERO clue how to make this work), would be to drop the file elsewhere on the box, or at least append the date and a 15 character random string to the end so that it is an obfuscated file name. ie: `alloutdrilling.ca-11-24-2020-qnxabnldmipevdh.sql`
 
-3. ZIP the folder it spits out, delete the folder, and offload the ZIP file onto a backup medium like GoogleDrive or Dropbox so that client is able to download/access them if you were to ever get The Rona and die (or something).
+3. ZIP the folder it spits out, delete the folder, and offload the ZIP file onto a backup medium like GoogleDrive or Dropbox so that client is able to download/access them if you were to ever get The Rona and die (or something). Maybe one could encrypt the ZIP and have it use a pre-shared password that you've discussed with your client so that your database isn't sitting out in the open on a Google Drive Account somewhere. 
