@@ -1,10 +1,10 @@
 #!/bin/bash
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 EE_PATH="/opt/easyengine/sites/"
-BACKUP_DIR_C="/root/web_backups/manual/"
+BACKUP_DIR_C="/root/ee-backups/"
 BACKUP_PATH="/root"
 DATE=`date +%Y-%m-%d`
-SITE="alloutdrilling.ca"
+SITE="example.com"
 CHOWN="root:root"
 
 PURPLE='\033[1;35m'
